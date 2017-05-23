@@ -38,9 +38,9 @@ For the latest GitHub version, run::
 Package contents
 ----------------
 
-=========
+=======================
 crosstalk_correction.py
-=========
+=======================
 crosstalk_correction.py contains the implementation of the crosstalk
 correction procedure. The ``crosstalk_correction`` function wraps
 the maximum impact estimation algorithm (in ``maximum_impact_estimation``)
