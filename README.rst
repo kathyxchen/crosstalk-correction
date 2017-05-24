@@ -6,7 +6,7 @@ Python 3 implementation of `Donato et al.'s
 for correcting crosstalk effects in pathway analysis.
 
 Background
------------
+----------
 
 **Crosstalk**: Donato et al. (2013) use the term crosstalk to refer to the
 effect that pathways exercise on each other (in pathway analysis methods
