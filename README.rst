@@ -1,8 +1,7 @@
 Crosstalk correction
 --------------------
-Python 3 implementation of `Donato et al.'s
-2013 maximum impact estimation algorithm
-<http://doi.org/10.1101/gr.153551.112>`_
+Python 3 implementation of `Donato et al.'s 2013 maximum impact estimation
+algorithm <http://doi.org/10.1101/gr.153551.112>`_
 for correcting crosstalk effects in pathway analysis.
 
 Background
@@ -42,15 +41,21 @@ Package contents
 crosstalk_correction.py
 =======================
 crosstalk_correction.py contains the implementation of the crosstalk
-correction procedure. The ``crosstalk_correction`` function wraps
-the maximum impact estimation algorithm (in ``maximum_impact_estimation``)
+correction procedure. The method ``crosstalk_correction`` wraps
+the maximum impact estimation algorithm (method ``maximum_impact_estimation``)
 and reduces the number of pre/post-processing steps required to
 run/interpret the results of ``maximum_impact_estimation``.
 
-We recommend that ``crosstalk_correction`` be used directly, but
-the functions called within ``crosstalk_correction`` have also
-been documented so that users can determine how to best address
-their use case.
+We recommend that the method ``crosstalk_correction`` be used directly
+in most use cases.
+
+For applications of maximum impact estimation that are not covered by
+this method, the following methods have also been made public
+and can be imported:
+
+- ``maximum_impact_estimation``
+- ``initialize_membership_matrix``
+- ``index_element_map``
 
 Acknowledgements
 ----------------

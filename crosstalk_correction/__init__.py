@@ -1,4 +1,1 @@
-from crosstalk_correction import crosstalk_correction
-from crosstalk_correction import maximum_impact_estimation
-from crosstalk_correction import initialize_membership_matrix
-from crosstalk_correction import index_element_map
+from crosstalk_correction.crosstalk_correction import *
