@@ -25,7 +25,7 @@ in the PathCORE software and paper.
 
 Installation
 ----------------
-Please use Python 3.4 or higher.
+Please use Python 3.5 or higher.
 To install the current PyPI version (recommended), run::
 
     pip install crosstalk-correction
