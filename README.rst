@@ -4,6 +4,8 @@ Python 3 implementation of `Donato et al.'s 2013 maximum impact estimation
 algorithm <http://doi.org/10.1101/gr.153551.112>`_
 for correcting crosstalk effects in pathway analysis.
 
+This code has been tested on Python 3.5.
+
 Background
 ----------
 
@@ -25,7 +27,6 @@ in the PathCORE software and paper.
 
 Installation
 ----------------
-Please use Python 3.5 or higher.
 To install the current PyPI version (recommended), run::
 
     pip install crosstalk-correction
