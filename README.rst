@@ -35,6 +35,16 @@ For the latest GitHub version, run::
 
     pip install git+https://github.com/kathyxchen/crosstalk-correction.git#egg=crosstalk-correction
 
+Examples
+--------
+The `crosstalk_correction` method is used in the `PathCORE <https://github.com/greenelab/PathCORE>`_
+file `here <https://github.com/greenelab/PathCORE/blob/master/pathcore/feature_pathway_overrepresentation.py#L86>`_.
+
+A visualization of what crosstalk correction does in the context of the PathCORE analysis
+can be viewed `here <https://github.com/greenelab/PathCORE-analysis/blob/master/jupyter-notebooks/Figure3_overlap_correction.ipynb>`_.
+
+For more details, please see the `PathCORE pre-print <http://biorxiv.org/content/early/2017/06/08/147645>`_.
+
 Package contents
 ----------------
 
