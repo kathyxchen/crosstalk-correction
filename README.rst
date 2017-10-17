@@ -37,8 +37,8 @@ For the latest GitHub version, run::
 
 Examples
 --------
-The `crosstalk_correction` method is used in the `PathCORE-T <https://github.com/greenelab/PathCORE-T>`_
-file `here <https://github.com/greenelab/PathCORE-T/blob/master/pathcore/feature_pathway_overrepresentation.py#L86>`_.
+The `crosstalk_correction` method is used in `PathCORE-T <https://github.com/greenelab/PathCORE-T>`_
+(see: `feature_pathway_overrepresentation <https://github.com/greenelab/PathCORE-T/blob/master/pathcore/feature_pathway_overrepresentation.py#L86>`_)
 
 A visualization of what crosstalk correction does in the context of the PathCORE-T analysis
 can be viewed `here <https://github.com/greenelab/PathCORE-T-analysis/blob/master/jupyter-notebooks/Figure3_overlap_correction.ipynb>`_.
