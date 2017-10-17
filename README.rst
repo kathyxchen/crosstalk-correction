@@ -19,11 +19,11 @@ maximum impact estimation that takes into account overlaps between pathways.
 The approach infers an underlying pathway impact matrix where each gene
 only contributes to one pathway using an expectation maximization technique.
 
-**PathCORE**: The crosstalk correction method is used in the PathCORE software,
-a hypothesis generation tool that identifies co-occurring pathways from the
-results of an unsupervised analysis of transcriptomic data. Due to confusion
-around the term "crosstalk," we refer to this procedure as "overlap-correction"
-in the PathCORE software and paper.
+**PathCORE-T**: The crosstalk correction method is used in the PathCORE-T
+software, a hypothesis generation tool that identifies co-occurring pathways
+from the results of an unsupervised analysis of transcriptomic data. Due to
+confusion around the term "crosstalk," we refer to this procedure as
+"gene overlap correction" in the PathCORE-T software and paper.
 
 Installation
 ----------------
@@ -37,13 +37,13 @@ For the latest GitHub version, run::
 
 Examples
 --------
-The `crosstalk_correction` method is used in the `PathCORE <https://github.com/greenelab/PathCORE>`_
-file `here <https://github.com/greenelab/PathCORE/blob/master/pathcore/feature_pathway_overrepresentation.py#L86>`_.
+The `crosstalk_correction` method is used in the `PathCORE-T <https://github.com/greenelab/PathCORE-T>`_
+file `here <https://github.com/greenelab/PathCORE-T/blob/master/pathcore/feature_pathway_overrepresentation.py#L86>`_.
 
-A visualization of what crosstalk correction does in the context of the PathCORE analysis
-can be viewed `here <https://github.com/greenelab/PathCORE-analysis/blob/master/jupyter-notebooks/Figure3_overlap_correction.ipynb>`_.
+A visualization of what crosstalk correction does in the context of the PathCORE-T analysis
+can be viewed `here <https://github.com/greenelab/PathCORE-T-analysis/blob/master/jupyter-notebooks/Figure3_overlap_correction.ipynb>`_.
 
-For more details, please see the `PathCORE pre-print <http://biorxiv.org/content/early/2017/06/08/147645>`_.
+For more details, please see the `PathCORE-T pre-print <http://biorxiv.org/content/early/2017/06/08/147645>`_.
 
 Package contents
 ----------------
